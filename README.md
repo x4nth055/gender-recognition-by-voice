@@ -23,7 +23,7 @@ Installing the required libraries:
 - Filtered out invalid samples.
 - Filtered only the samples that are labeled in `genre` field.
 - Balanced the dataset so that number of female samples are equal to male.
-- Used Mel Spectrogram feature extraction technique to get a vector of a fixed length from each voice sample, the [data](data/) folder contain only the features and not the actual mp3 samples (the dataset is too large, about 13GB).
+- Used [Mel Spectrogram](https://librosa.github.io/librosa/generated/librosa.feature.melspectrogram.html) feature extraction technique to get a vector of a fixed length from each voice sample, the [data](data/) folder contain only the features and not the actual mp3 samples (the dataset is too large, about 13GB).
 
 ## Training
 You can customize your model in [`utils.py`](utils.py) file under the `create_model()` function and then run:
