@@ -1,0 +1,7 @@
+tensorflow
+sklearn
+numpy
+pandas
+tqdm
+pyaudio
+librosa

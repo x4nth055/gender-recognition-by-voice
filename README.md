@@ -55,7 +55,8 @@ You can customize your model in [`utils.py`](utils.py) file under the `create_mo
 
       Result: male
       Probabilities:     Male: 96.36%    Female: 3.64%
-
+  
+  There are some audio samples in [test-samples](test-samples) folder for you to test with, it is grabbed from [LibriSpeech dataset](http://www.openslr.org/12).
 - To make inference on your voice instead, you need to:
       
       python test.py
