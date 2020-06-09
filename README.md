@@ -32,7 +32,7 @@ You can customize your model in [`utils.py`](utils.py) file under the `create_mo
 
 ## Testing
 
-[test.py](test.py) is the code responsible for testing your audio files or your voice:
+[`test.py`](test.py) is the code responsible for testing your audio files or your voice:
 
     python test.py --help
 
@@ -60,6 +60,6 @@ You can customize your model in [`utils.py`](utils.py) file under the `create_mo
       
       python test.py
 
-    Wait until you see "Please speak" prompt and start talking, it will stop recording as long as you stop talking.
+    Wait until you see `"Please speak"` prompt and start talking, it will stop recording as long as you stop talking.
 
     
