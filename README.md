@@ -13,13 +13,14 @@ Cloning the repository:
 
     git clone https://github.com/x4nth055/gender-recognition-by-voice
 
-Installing them:
+Installing the required libraries:
 
     pip3 install -r requirements.txt
 
 ## Dataset used
 
-[Mozilla's Common Voice](https://www.kaggle.com/mozillaorg/common-voice) large dataset is used here (you can find it in [data](data/) folder), and some preprocessing has been performed:
+[Mozilla's Common Voice](https://www.kaggle.com/mozillaorg/common-voice) large dataset is used here, and some preprocessing has been performed:
+- Filtered out invalid samples.
 - Filtered only the samples that are labeled in `genre` field.
 - Balanced the dataset so that number of female samples are equal to male.
 - Used Mel Spectrogram feature extraction technique to get a vector of a fixed length from each voice sample, the [data](data/) folder contain only the features and not the actual mp3 samples (the dataset is too large, about 13GB).
