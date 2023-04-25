@@ -1,5 +1,5 @@
 tensorflow
-sklearn
+scikit-learn
 numpy
 pandas
 tqdm
